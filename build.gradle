@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'uwu.quele'
+version '1.0-SNAPSHOT'
+
+compileJava.options.encoding = "UTF-8"
+compileTestJava.options.encoding = "UTF-8"
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://papermc.io/repo/repository/maven-public/'
+    }
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    compileOnly 'io.github.waterfallmc:waterfall-api:1.16-R0.5-SNAPSHOT'
+}
+
+test {
+    useJUnitPlatform()
+}
+apply plugin: 'java'
+apply plugin: 'maven'
