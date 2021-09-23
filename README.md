@@ -1,7 +1,7 @@
 > Java version: Adopt-OpenJ9-11
 
 ---
-### Ask herewith if the player has the ... Server has liked.
+### Ask herewith if the player has liked the Server ...
 ---
 
 ### Commands
