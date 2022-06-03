@@ -1,5 +1,8 @@
 > Java version: Adopt-OpenJ9-11
 
+
+- ![#f03c15](OUTDATED) `#f03c15`
+
 ---
 ### Ask herewith if the player has liked the Server ...
 ---
